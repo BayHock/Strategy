@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dialogue>
+	<node mainText ="Мистер Президент, страна сейчас переживает нелегкие времена. Людям необходима помощь от правительства... Нам может помочь церковь, но придется значительно раскошелиться или, же можно подавить волнения нежной рукой демократии. Что скажете?">
+		<answers>
+
+			<answer text = "Конечно, я помогу людям."
+                    toNode ="1"
+                    money = "-500" food = "-750" army = "0" happiness = "-5" religion = "0" order = "-5"
+            />
+
+			<answer text = "Ладно, дайте денег этим зажравшимся Служителям Света."
+                    toNode ="1"
+                    money = "-1000" food = "0" army = "0" happiness = "-5" religion = "-5" order = "-5"
+            />
+
+			<answer text = "Ха-ха-ха, пусть моя доблестная полиция немного поработает."
+                    toNode ="1"
+                    money = "500" food = "500" army = "0" happiness = "5" religion = "0" order = "5"
+            />
+		</answers>
+	</node>
+	<node mainText ="Мистер Президент, наша армия нуждается в модернизации. Нам нужна новая техника и современное оружие. По данным разведки, в ближайшие годы недружественные страны собираются увеличивать расходы бюджета на армию. Мы слабы Мистер Президент. Наша страна должна дать отпор врагам.">
+		<answers>
+
+			<answer text ="Хорошо, сейчас необходимо усилить армию."
+                    toNode ="2"
+                    money = "-1000" food = "0" army = "500" happiness = "0" religion = "0" order = "0"
+            />
+
+			<answer text ="Вы что издеваетесь? Наша армия самая сильная!"
+                    toNode ="2"
+                    money = "500" food = "0" army = "-150" happiness = "0" religion = "0" order = "0"
+            />
+
+			<answer text ="Пускай священники благословят моих солдат."
+                    toNode ="2"
+                    money = "-500" food = "0" army = "250" happiness = "0" religion = "-5" order = "0"
+            />
+		</answers>
+	</node>
+	<node mainText ="Мистер Президент, в столице собираются построить несколько храмов. Дело в том, что это незаконно… Люди недовольны тем, что власти бездействуют. Будем ли мы вмешиваться в дела Церкви?">
+		<answers>
+
+			<answer text = "В последнее время, Церковь слишком много себе позволяет, надо поставить их на место."
+                    toNode ="3"
+                    money = "0" food = "0" army = "0" happiness = "-5" religion = "15" order = "-5"
+            />
+			<answer text ="Плевать я хотел на этих людишек."
+                    toNode ="3"
+                    money = "1500" food = "0" army = "0" happiness = "10" religion = "-5" order = "5"
+            />
+			<answer text ="Надо показать людям, что коррупция наказуема."
+                    toNode ="3"
+                    money = "0" food = "0" army = "0" happiness = "-5" religion = "10" order = "-5"
+            />
+		</answers>
+	</node>
+	<node mainText ="Мистер Президент, в соседней стране бунтуют люди против действующей власти. Мы можем помочь подавить протесты, отправив туда часть нашей армии. Правительство той страны расположено к нам дружественно и лишние деньги нам явно не помешают.">
+		<answers>
+
+			<answer text ="Я помогу нашим друзьям. Отправьте самых лучших солдат."
+                    toNode ="4"
+                    money = "250" food = "0" army = "-300" happiness = "0" religion = "0" order = "0"
+            />
+
+			<answer text ="Ни в коем случае, пусть справляются с этой ситуацией своими силами."
+                    toNode ="4"
+                    money = "0" food = "0" army = "250" happiness = "0" religion = "0" order = "0"
+            />
+
+			<answer text ="Отправьте наши миротворческие силы на поддержание более дружественного режима."
+                    toNode ="4"
+                    money = "500" food = "500" army = "-500" happiness = "0" religion = "0" order = "0"
+            />
+		</answers>
+	</node>
+	<node mainText ="Мистер Президент, экономические реформы нашего государства необходимо обновить. Потребуется огромное количество времени, чтобы наша экономика восстановилась после упадка в 2020-ых годах. Как вам идея?">
+		<answers>
+
+			<answer text ="Раз так нужно для блага нашей Родины, я подпишу документы."
+                    toNode ="5"
+                    money = "-2000" food = "0" army = "0" happiness = "0" religion = "0" order = "0"
+            />
+
+			<answer text ="Ничего страшного с экономикой нашей великой страны не случится."
+                    toNode ="5"
+                    money = "500" food = "0" army = "0" happiness = "0" religion = "0" order = "0"
+            />
+
+			<answer text ="Проведём половину реформ, а то бюджет не выдержит."
+                    toNode ="5"
+                    money = "-1000" food = "0" army = "0" happiness = "0" religion = "0" order = "0"
+            />
+		</answers>
+	</node>
+	<node mainText ="Мистер Президент, наша страна страдает от постоянного роста коррупции в регионах. Нужно принять все необходимые меры для устранения этой раковой опухоли.">
+		<answers>
+
+			<answer text ="Я вас услышал. Все коррумпированные чиновники будут взяты под стражу."
+                    toNode ="6"
+                    money = "-2500" food = "0" army = "0" happiness = "-5" religion = "0" order = "-5"
+            />
+
+			<answer text ="Коррупция? Не, не слышал."
+                    toNode ="6"
+                    money = "1000" food = "0" army = "0" happiness = "10" religion = "0" order = "15"
+            />
+
+			<answer text ="Я не собираюсь бороться с ней, ведь я тоже извлекаю из неё выгоду."
+                    toNode ="6"
+                    money = "2500" food = "0" army = "0" happiness = "20" religion = "0" order = "20"
+            />
+		</answers>
+	</node>
+	<node mainText ="Мистер Президент, вам поступило обращение от фермеров из нашего региона. Они просят увеличить затраты государственного бюджета на развитие фермерского хозяйства.">
+		<answers>
+
+			<answer text ="Выделите им необходимые средства из бюджета."
+                    toNode ="7"
+                    money = "-3000" food = "1000" army = "0" happiness = "-5" religion = "0" order = "-5"
+            />
+
+			<answer text ="Я обязательно выделю им денежные средства в следующем году."
+                    toNode ="7"
+                    money = "1000" food = "-2000" army = "0" happiness = "15" religion = "0" order = "10"
+            />
+
+			<answer text ="Фермерам нужны деньги? Лучше увеличьте численность моей армии."
+                    toNode ="7"
+                    money = "-1500" food = "-1500" army = "1000" happiness = "20" religion = "0" order = "20"
+            />
+		</answers>
+	</node>
+	<node mainText ="Тревога!!! Мистер Президент, люди бунтуют из-за нехватки продовольствия. Нужно срочно предпринять меры.">
+		<answers>
+
+			<answer text ="Закупим у соседней страны необходимые продукты."
+                    toNode ="8"
+                    money = "-2500" food = "1000" army = "0" happiness = "-5" religion = "0" order = "-5"
+            />
+
+			<answer text ="Еды им не хватает, а как им на вкус резина? Немедленно подавить протесты."
+                    toNode ="8"
+                    money = "0" food = "-1500" army = "0" happiness = "20" religion = "0" order = "20"
+            />
+
+			<answer text ="Дайте денег Церкви, пускай пообещает им манну небесную."
+                    toNode ="8"
+                    money = "-1500" food = "-1500" army = "0" happiness = "15" religion = "-5" order = "15"
+            />
+		</answers>
+	</node>
+	<node mainText ="Мистер Президент, Церковь хочет больше земельных участков для строительных работ. Взамен они предлагают нам немалые деньги и их поддержку.">
+		<answers>
+
+			<answer text ="Выдайте им разрешения на строительство церквушек. Лишние деньги нам не помешают."
+                    toNode ="9"
+                    money = "2000" food = "0" army = "0" happiness = "5" religion = "-5" order = "5"
+            />
+
+			<answer text ="Не слишком ли многого они хотят?"
+                    toNode ="9"
+                    money = "0" food = "0" army = "0" happiness = "-5" religion = "15" order = "-5"
+            />
+
+			<answer text ="А знаешь что? Пускай мои спецы хорошенько обработают их."
+                    toNode ="9"
+                    money = "1500" food = "0" army = "500" happiness = "5" religion = "25" order = "5"
+            />
+		</answers>
+	</node>
+	<node mainText ="Мистер Президент, народ не доволен повышением налогов. Люди собираются объявить забастовки на заводах, если их условия не будут удовлетворены.">
+		<answers>
+
+			<answer text ="Срочно объявите бунтовщикам, что их условия будут выполнены."
+					toNode ="10"
+                    money = "-5000" food = "0" army = "0" happiness = "-20" religion = "0" order = "-20"
+            />
+
+			<answer text ="Они, наверное, забыли у кого вся власть в руках. Немедленно арестовать зачинщиков забастовок!"
+					toNode ="10"
+                    money = "-1000" food = "0" army = "0" happiness = "10" religion = "0" order = "10"
+            />
+
+			<answer text ="Срочно ввести армию в столицу! Расправиться со всеми бунтовщиками! Не щадить никого!"
+					toNode ="10"
+                    money = "-2000" food = "0" army = "-1500" happiness = "20" religion = "0" order = "20"
+            />
+		</answers>
+	</node>
+	<node mainText ="Мистер Президент, поддержка вашей власти среди населения падает. Необходимо провести массовые мероприятия, чтобы повысить популярность партии.">
+		<answers>
+
+			<answer text ="Давайте проведем их с роскошью!"
+					toNode ="11"
+                    money = "-3000" food = "-2000" army = "0" happiness = "-10" religion = "0" order = "-10"
+            />
+
+			<answer text ="Моя партия была и остается популярной среди наших граждан."
+					toNode ="11"
+                    money = "1000" food = "1000" army = "0" happiness = "10" religion = "0" order = "10"
+            />
+
+			<answer text ="Лучше надавим на оппозицию."
+					toNode ="11"
+                    money = "-1500" food = "0" army = "0" happiness = "15" religion = "0" order = "15"
+            />
+		</answers>
+	</node>
+	<node mainText ="Мистер Президент, СМИ слишком много высказываются и порой в негативном ключе. Не считаете ли вы, что правительство дало им много свободы?">
+		<answers>
+
+			<answer text ="Пора заткнуть рты этим журналюгам."
+					toNode ="12"
+                    money = "1000" food = "0" army = "0" happiness = "10" religion = "0" order = "10"
+            />
+
+			<answer text ="Критика будет хорошо влиять на работу правительства."
+					toNode ="12"
+                    money = "-1500" food = "0" army = "0" happiness = "-15" religion = "0" order = "-15"
+            />
+
+			<answer text ="Разбавим их программки мыслями о чём-то высшем, духовном…"
+					toNode ="12"
+                    money = "2000" food = "0" army = "0" happiness = "5" religion = "-10" order = "5"
+            />
+		</answers>
+	</node>
+	<node mainText ="Мистер Президент в армии всё ещё существует дедовщина. Это негативно отражается на поддержании порядка и поддержки среди людей. Все больше людей считает, что давно уже пора провести военные реформы.">
+		<answers>
+
+			<answer text ="Наша армия должна стать идеалом среди всех современных армий мира."
+					toNode ="13"
+                    money = "-1000" food = "-1000" army = "1000" happiness = "-20" religion = "0" order = "-20"
+            />
+
+			<answer text ="Да ничего с моей армией не произойдет."
+					toNode ="13"
+                    money = "500" food = "500" army = "-500" happiness = "5" religion = "0" order = "5"
+            />
+
+			<answer text ="Тех кто плохо думает о армии – штраф и в кутузку."
+					toNode ="13"
+                    money = "2000" food = "1000" army = "-750" happiness = "10" religion = "0" order = "10"
+            />
+		</answers>
+	</node>
+	<node mainText ="Мистер Президент, церковь все больше пытается настроить людей против властей. Люди собираются на центральных улицах в крупных городах. Нужно предпринять меры…">
+		<answers>
+
+			<answer text ="Да угомоните уже этих боголюбителей!"
+					toNode ="14"
+                    money = "0" food = "0" army = "0" happiness = "10" religion = "20" order = "10"
+            />
+
+			<answer text ="Пойдем на компромисс, иначе распят меня."
+					toNode ="14"
+                    money = "-3000" food = "-4000" army = "0" happiness = "-10" religion = "-20" order = "-10"
+            />
+
+			<answer text ="Раздайте людям денег и еду – разойдутся."
+					toNode ="14"
+                    money = "-2000" food = "-2000" army = "0" happiness = "-20" religion = "10" order = "-20"
+            />
+		</answers>
+	</node>
+	<node mainText ="Мистер Президент, в нашей великой стране празднуют государственный праздник!!!">
+		<answers>
+
+			<answer text ="С праздником господа!"
+					toNode ="15"
+                    money = "1000" food = "500" army = "500" happiness = "0" religion = "0" order = "0"
+            />
+
+			<answer text ="УРА! УРА! УРА! За страну и наших граждан!"
+					toNode ="15"
+                    money = "500" food = "250" army = "250" happiness = "-5" religion = "-5" order = "-5"
+            />
+
+			<answer text ="Ура товарищи! Деньги пилим?"
+					toNode ="15"
+                    money = "-10000" food = "4000" army = "3000" happiness = "-40" religion = "-40" order = "-40"
+            />
+		</answers>
+	</node>
+	<node mainText ="Мистер Президент, появилась информация, что соседнее государство собирается напасть на нас. Одни думают, что это слухи. Другие, что необходимо нанести упреждающий удар. Что думаете вы?">
+		<answers>
+
+			<answer text ="Не верю, что наши соседи нападут на нас."
+					toNode ="16"
+                    money = "0" food = "0" army = "-1000" happiness = "-10" religion = "-10" order = "-10"
+            />
+
+			<answer text ="Подготовить наши войска к обороне."
+					toNode ="16"
+                    money = "0" food = "0" army = "-1000" happiness = "5" religion = "5" order = "5"
+            />
+
+			<answer text ="Просто дайте мне уже пульт от ядерки…"
+					toNode ="16"
+                    money = "0" food = "0" army = "-5000" happiness = "0" religion = "0" order = "0"
+            />
+		</answers>
+	</node>
+	<node mainText ="Мистер Президент, наше государство испытывает небывалый подъем экономики. Граждане довольны своей жизнью. Вот только экоактивисты чем-то всё время недовольны и устраивают провокационные акции.">
+		<answers>
+
+			<answer text ="Не мешайте им маяться фигней."
+					toNode ="17"
+                    money = "-1000" food = "0" army = "0" happiness = "-15" religion = "0" order = "-15"
+            />
+
+			<answer text ="По-тихому арестуйте их."
+					toNode ="17"
+                    money = "0" food = "0" army = "0" happiness = "5" religion = "0" order = "10"
+            />
+
+			<answer text ="Гоните их брандспойтами и дубинами."
+					toNode ="17"
+                    money = "0" food = "0" army = "0" happiness = "10" religion = "0" order = "10"
+            />
+		</answers>
+	</node>
+	<node mainText ="Мистер Президент, финансирование нашей армии необходимо расширять на фоне растущей угрозы терроризма в мире. Нельзя отрицать возможную опасность для государства.">
+		<answers>
+
+			<answer text ="Я полностью с вами согласен."
+					toNode ="18"
+                    money = "-2000" food = "0" army = "2000" happiness = "-5" religion = "0" order = "-5"
+            />
+
+			<answer text ="Можем поступить более радикально. Не зря же мы делаем бомбы."
+					toNode ="18"
+                    money = "-1000" food = "0" army = "-500" happiness = "-10" religion = "0" order = "-5"
+            />
+
+			<answer text ="Отправьте военных советников в страны для борьбы с терроризмом."
+					toNode ="18"
+                    money = "-500" food = "0" army = "-1000" happiness = "-10" religion = "0" order = "-10"
+            />
+		</answers>
+	</node>
+	<node mainText ="Мистер Президент, скоро пройдут выборы на пост главы государства. У вас серьезный оппонент, который желает власти. Будем действовать по старинке или же поступим демократично?">
+		<answers>
+
+			<answer text ="Я не собираюсь вмешиваться в выборы. Пусть все пройдет достойно."
+					toNode ="19"
+                    money = "-2000" food = "0" army = "0" happiness = "-30" religion = "-30" order = "-30"
+            />
+
+			<answer text ="Он для меня лишь пешка в игре… Устранить!"
+					toNode ="19"
+                    money = "-1000" food = "0" army = "-500" happiness = "10" religion = "10" order = "10"
+            />
+
+			<answer text ="Разверните огромную рекламную кампанию. Я должен победить!"
+					toNode ="19"
+                    money = "-4000" food = "0" army = "0" happiness = "5" religion = "5" order = "5"
+            />
+		</answers>
+	</node>
+	<node mainText ="Поздравляю с победой в выборах, Мистер Президент! Вы достойный управленец нашей великой страны!">
+		<answers>
+
+			<answer text ="Спасибо. Я благодарен всем за поддержку."
+					toNode ="20"
+                    money = "500" food = "0" army = "0" happiness = "-5" religion = "-5" order = "-5"
+            />
+
+			<answer text ="Проведем же недельный праздник в честь этого события!"
+					toNode ="20"
+                    money = "-2000" food = "-2000" army = "0" happiness = "-15" religion = "-15" order = "-15"
+            />
+
+			<answer text ="Устроим в честь этого парад, чтобы показать нашим врагам мощь сильнейшего государства!!!"
+					toNode ="20"
+                    money = "-6000" food = "-5000" army = "2000" happiness = "-20" religion = "-20" order = "-20"
+            />
+		</answers>
+	</node>
+	<node mainText ="Мистер Президент, нужно снова решать проблемы. После вашего успешного переизбрания враги готовятся нанести удар по нашей столице и прибрежным городам. Нужно действовать!">
+		<answers>
+
+			<answer text ="Нанести упреждающий ракетный удар по столицам враждебных государства!"
+					toNode ="21"
+                    money = "-1000" food = "0" army = "-1000" happiness = "10" religion = "10" order = "10"
+            />
+
+			<answer text ="Ввести войска специального назначения и устранить всю верхушку их государств!"
+					toNode ="21"
+                    money = "-2000" food = "0" army = "-3000" happiness = "5" religion = "5" order = "5"
+            />
+
+			<answer text ="Подготовимся к обороне нашей родины!"
+					toNode ="21"
+                    money = "-500" food = "0" army = "1000" happiness = "-10" religion = "-10" order = "10"
+            />
+		</answers>
+	</node>
+	<node mainText ="Мистер Президент, не считаете ли вы, что пора улучшить инфраструктуру наших городов и неблагополучных регионов?">
+		<answers>
+
+			<answer text ="Действительно, грамотно распределите бюджет."
+					toNode ="22"
+                    money = "-1500" food = "0" army = "0" happiness = "-10" religion = "0" order = "-10"
+            />
+
+			<answer text ="Давно пора. Также доставьте гуманитарную помощь людям, которые в ней нуждаются."
+					toNode ="22"
+                    money = "-2000" food = "-3000" army = "0" happiness = "-15" religion = "0" order = "-10"
+            />
+
+			<answer text ="Чего, чего??? Оставим денежки в бюджете. Обойдутся."
+					toNode ="22"
+                    money = "2000" food = "0" army = "0" happiness = "20" religion = "10" order = "20"
+            />
+		</answers>
+	</node>
+	<node mainText ="Мистер Президент, люди ждут что вы выступите с речью по телевидению. Они хотят услышать ваши планы по развитию страны в ближайшем будущем.">
+		<answers>
+
+			<answer text ="(Выступить с речью об экономическом развитии страны)"
+					toNode ="23"
+                    money = "1000" food = "1000" army = "0" happiness = "-5" religion = "0" order = "-5"
+            />
+
+			<answer text ="(Выступить с речью о важном значении религии в жизни)"
+					toNode ="23"
+                    money = "-500" food = "-1500" army = "0" happiness = "0" religion = "-10" order = "0"
+            />
+
+			<answer text ="(Выступить с агрессивной подачей мыслей о великой армии державы)"
+					toNode ="23"
+                    money = "1500" food = "1500" army = "1000" happiness = "10" religion = "10" order = "20"
+            />
+		</answers>
+	</node>
+	<node mainText ="Мистер Президент, люди хотят получить больше земли для посева зерновых культур. Нашей стране необходимо развивать фермерские хозяйства. Как вы считаете?">
+		<answers>
+
+			<answer text ="Полностью с вами согласен"
+					toNode ="24"
+                    money = "-2000" food = "2000" army = "0" happiness = "-10" religion = "10" order = "-10"
+            />
+
+			<answer text ="Им своей земли не хватает?"
+					toNode ="24"
+                    money = "1000" food = "-2000" army = "0" happiness = "10" religion = "5" order = "10"
+            />
+
+			<answer text ="Дайте им землю, но не всю. Остальную часть церкви."
+					toNode ="24"
+                    money = "1500" food = "1000" army = "0" happiness = "-5" religion = "-10" order = "-5"
+            />
+		</answers>
+	</node>
+	<node mainText ="Мистер Президент, в нашей стране разразилась страшная эпидемия. Люди заболевают и умирают за сутки... Нужно что-то сделать...">
+		<answers>
+
+			<answer text = "Ввести карантин!!!"
+					toNode ="25"
+                    money = "-1000" food = "0" army = "0" happiness = "5" religion = "5" order = "5"
+            />
+
+			<answer text = "Остановите это! Любым способом!"
+					toNode ="25"
+                    money = "-2000" food = "-2000" army = "-2000" happiness = "-20" religion = "-20" order = "-20"
+            />
+
+			<answer text ="Повысьте цены на медикаменты. Хоть какая-то прибыль."
+					toNode ="25"
+                    money = "3000" food = "0" army = "0" happiness = "15" religion = "10" order = "20"
+            />
+		</answers>
+	</node>
+	<node mainText ="Мистер Президент, Мистер Президент!!! Вы меня слышите? Не может быть...">
+		<answers>
+
+			<answer text = "Что со мной?....."
+					toNode ="26"
+                    money = "1" food = "1" army = "1" happiness = "-1" religion = "-1" order = "-1"
+            />
+
+			<answer text = "....."
+					toNode ="26"
+                    money = "1" food = "1" army = "1" happiness = "-1" religion = "-1" order = "-1"
+            />
+
+			<answer text = "....."
+					toNode ="26"
+                    money = "1" food = "1" army = "1" happiness = "-1" religion = "-1" order = "-1"
+            />
+		</answers>
+	</node>
+	<node mainText ="(Мистер Президент... Он умер от эпидемии, которая настигла нашу страну, наших граждан... Не могу поверить...)">
+		<answers>
+
+			<answer text = "....."
+					toNode ="27"
+                    money = "1" food = "1" army = "1" happiness = "-1" religion = "-1" order = "-1"
+					dialend ="true"
+            />
+
+			<answer text = "....."
+					toNode ="27"
+                    money = "1" food = "1" army = "1" happiness = "-1" religion = "-1" order = "-1"
+					dialend ="true"
+            />
+
+			<answer text = "....."
+					toNode ="27"
+                    money = "1" food = "1" army = "1" happiness = "-1" religion = "-1" order = "-1"
+					dialend ="true"
+            />
+		</answers>
+	</node>
+</dialogue>
